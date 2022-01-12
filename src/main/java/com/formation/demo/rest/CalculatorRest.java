@@ -17,7 +17,7 @@ public class CalculatorRest {
         return String.valueOf(calculator.sum(a, b));
     }
 
-    @RequestMapping("/sum")
+    @RequestMapping("/multiply")
     public String multiply(@RequestParam("a") Integer a, @RequestParam("b") Integer b) {
         return String.valueOf(calculator.multiply(a, b));
     }
