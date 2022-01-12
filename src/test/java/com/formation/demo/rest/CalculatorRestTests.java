@@ -14,4 +14,9 @@ public class CalculatorRestTests {
         assertEquals(5, calculator.sum(2, 3));
     }
 
+    @Test
+    void testMultiply() {
+        assertEquals(9, calculator.multiply(3, 3));
+    }
+
 }
